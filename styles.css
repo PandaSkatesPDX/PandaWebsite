@@ -2,21 +2,38 @@
     margin: 0px;
 }
 
+nav {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 25px;
+    border-bottom: 3px solid #EDBA36;
+    margin-bottom: 0px;
+
+    text-align: right;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    border: 3px solid #EDBA36;
-    margin-left: 25%;
-    margin-top: 100px;
-    max-width: 50%;
     background-image: url("/backgrounds/backgroundtile.png");
     background-repeat: repeat;
+
+    font-size: 24px;
 }
 
 .backgroundBlock {
     background-color: white;
+    padding-top: 10px;
     padding-bottom: 10px;
+
+    text-align: center;
+    border-bottom: 3px solid #EDBA36;
+    border-left: 3px solid #EDBA36;
+    border-right: 3px solid #EDBA36;
+
+    margin-top: 0px;
+    margin-left: 25%;
+    max-width: 50%;
 }
 
 h1 {
@@ -35,7 +52,7 @@ h3 {
 
 a {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 p {
